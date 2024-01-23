@@ -11,7 +11,6 @@ internal class Program
         {
             await Server.Instance.AcceptMsg();
         }
-    }
         else
         {
             for (int i = 0; i < 10; i++)
